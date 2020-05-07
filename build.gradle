@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'controller-api'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    //compile 'org.apache.httpcomponents:httpclient:4.5.5'
+    compile group: 'org.glassfish.jersey.connectors', name: 'jersey-apache-connector', version: '2.14'
+}
